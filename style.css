@@ -1,0 +1,245 @@
+
+
+
+body{
+    background-color: black;
+    color: azure;
+}
+.imglogo{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+	left: 44%;
+	top: 10%
+}
+.btnmer{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    background-color: black;
+
+}
+.btnmer {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+}
+.btnmer:before {
+    content: '';
+    background: linear-gradient(45deg, #030303, #ffffff, #04dffc, #e1fa00, #aee3da, #4b6980, #917ea6, #02ecfd, #ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.btnmer:active:after {
+    background: transparent;
+}
+
+.btnmer:hover:before {
+    opacity: 1;
+}
+
+.btnmer:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.btnfer{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+.btnfer {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+}
+.btnfer:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #fcfcfb, #f78502, #010101, #ff0000, #fc2a5f, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.btnfer:active:after {
+    background: transparent;
+}
+
+.btnfer:hover:before {
+    opacity: 1;
+}
+
+.btnfer:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.btnmc{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 51.9%;
+}
+.btnmc {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+}
+.btnmc:before {
+    content: '';
+    background: linear-gradient(45deg, #080808, #fffffe, #f63f02, #f7f303, #fff700, #ffa600, #efc702, #f97502, #ff0303);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.btnmc:active:after {
+    background: transparent;
+}
+
+.btnmc:hover:before {
+    opacity: 1;
+}
+
+.btnmc:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.btnrbr{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 51.9%;
+    left: 50%;
+
+}
+.btnrbr {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+}
+.btnrbr:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #0f02f8, #fbfbfb, #4d02fc, #fcf803, #fafafa, #0206fc, #fff700, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.btnrbr:active:after {
+    background: transparent;
+}
+
+.btnrbr:hover:before {
+    opacity: 1;
+}
+
+.btnrbr:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
